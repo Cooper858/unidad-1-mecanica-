@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    // Declaración de variables
+    // DeclaraciÃ³n de variables
     int A, B;
     float resultado;
 
@@ -12,7 +12,7 @@ int main() {
     cout << "Introduce el valor de B: ";
     cin >> B;
 
-    // Cálculo de la expresión (A + B)^2 / 3
+    // CÃ¡lculo de la expresiÃ³n (A + B)^2 / 3
     resultado = ((A + B) * (A + B)) / 3.0;
 
     // Salida del resultado
