@@ -1,0 +1,22 @@
+#include "iostream"
+using namespace std;
+
+int main() {
+    // Declaración de variables
+    float PRECIOPRODUCTO, DEVOLUCION;
+    float PAGO;
+
+    // Entrada de datos
+    cout << "Escribe el costo del articulo: " << "\n";
+    cin >> PRECIOPRODUCTO;
+    cout << "Escribe cuanto fue el pago del articulo: " << "\n";
+    cin >> PAGO;
+
+    // Cálculo de devolución
+    DEVOLUCION = PAGO - PRECIOPRODUCTO;
+
+    // Se imprime el resultado
+    cout << "El cambio del cliente es: " << DEVOLUCION << "\n";
+
+    return 0;
+}
