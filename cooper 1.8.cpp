@@ -26,7 +26,7 @@ int main()
     cout << "Escribe la coordenada Y del segundo punto " << "\n";
     cin >> Y2;
 
-    // Cálculo
+    // CÃ¡lculo
     DIS = sqrt(pow((X1 - X2), 2) + pow((Y1 - Y2), 2));
 
     // Se imprime el resultado
